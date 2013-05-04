@@ -1,0 +1,16 @@
+tonumber(), tostring()
+string.find("", "")	=>	beg, end
+
+当作为表达式调用函数时，有以下几种情况： 
+1.  当调用作为表达式最后一个参数或者仅有一个参数时，根据变量个数函数尽可能
+多地返回多个值，不足补 nil，超出舍去。 
+2.  其他情况下，函数调用仅返回第一个值（如果没有返回值为 nil） 
+
+预定义的 unpack 函数是用 C 语言实现的，我们也可以用 Lua 来完成： 
+function unpack(t, i) 
+  i = i or 1 
+  if t[i] then 
+   return t[i], unpack(t, i + 1) 
+  end 
+end 
+

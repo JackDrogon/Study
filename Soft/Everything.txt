@@ -1,0 +1,119 @@
+操作符：
+	space	AND
+	|	OR
+	!	NOT
+	< >	Parentheses
+	" "	Search for an exact phrase.
+
+通配符：
+	*	Matches zero or more characters.
+	?	Matches one character.
+	*.	Matches filenames with no extension.
+	*.*	Same as *
+
+宏：
+	quot:	Literal double quote (")
+	apos:	Literal apostrophe (')
+	amp:	Literal ampersand (&)
+	lt:	Literal less than (<)
+	gt:	Literal greater than (>)
+	#x:	Literal unicode character code x.
+
+修饰符：
+	ascii:	Enable fast ASCII case comparisons.
+	case:	Match case.
+	diacritics:	Match diacritical marks.
+	file:	Match files only.
+	folder:	Match folders only.
+	noascii:	Disable fast ASCII case comparisons.
+	nocase:	Do not match case.
+	nodiacritics:	Do not match diacritical marks.
+	nofileonly:	Do not allow files only.
+	nofolderonly:	Do not allow folders only.
+	nopath:	Do not match path.
+	noregex:	Disable regex.
+	nowfn:	Do not match the whole filename.
+	nowholefilename:	Do not match the whole filename.
+	nowholeword:	Do not match whole words only.
+	nowildcards:	Disable wildcards.
+	noww:	Do not match whole words only.
+	path:	Match path and file name.
+	regex:	Enable regex.
+	utf8:	Disable fast ASCII case comparisons.
+	wfn:	Match the whole filename.
+	wholefilename:	Match the whole filename.
+	wholeword:	Match whole words only.
+	wildcards:	Enable wildcards.
+	ww:	Match whole words only.
+
+函数：
+	attrib:<attributes>	Search for files and folders with the specified file attributes.
+	attributes:<attributes>	Search for files and folders with the specified file attributes.
+	datecreated:<date>	Search for files and folders with the specified date created.
+	datemodified:<date>	Search for files and folders with the specified date modified.
+	dc:<date>	Search for files and folders with the specified date created.
+	dm:<date>	Search for files and folders with the specified date modified.
+	dupe:	Search for duplicated filenames.
+	empty:	Search for empty folders.
+	ext:<list>	Search for files with a matching extension in the specified semi-colon delimited extension list.
+	fsi:<index>	Search for files and folders in the specified zero based internal file system index.
+	len:<length>	Search for files and folders that match the specified filename length.
+	parents:<count>	Search for files and folders with the specified number of parent folders.
+	root:	Search for files and folders with no parent folders.
+	size:<size>	Search for files with the specified size in bytes.
+	type:<type>	Search for files and folders with the specified type.
+
+函数语法：
+	function:value	Equal to value.
+	function:<=value	Less than or equal to value.
+	function:<value	Less than value.
+	function:=value	Equal to value.
+	function:>value	Greater than value.
+	function:>=value	Greater than or equal to value.
+	function:start..end	Is in the range of values from start to end.
+	function:start-end	Is in the range of values from start to end.
+
+大小语法：
+	size[kb|mb|gb]
+
+大小常数：
+	empty
+	tiny	10 KB
+	small	100 KB
+	medium	1 MB
+	large	16 MB
+	gigantic	128 MB
+	unknown
+
+日期语法：
+	year
+	month/year
+	day/month/year
+
+日期常数：
+	today
+	yesterday
+	tomorrow
+	<last|past|prev|current|this|coming|next><week|month|year>
+	january|february|march|april|may|june|july|august|september|october|november|december
+	jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec
+	sunday|monday|tuesday|wednesday|thursday|friday|saturday
+	sun|mon|tue|wed|thu|fri|sat
+	unknown
+
+属性常数：
+	R	Read only
+	H	Hidden
+	S	System
+	D	Directory
+	A	Archive
+	V	Device
+	N	Normal
+	T	Temporary
+	P	Sparse file
+	L	Reparse point
+	C	Compressed
+	O	Offline
+	I	Not content indexed
+	E	Encrypted
+
