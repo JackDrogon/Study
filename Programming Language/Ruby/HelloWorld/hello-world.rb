@@ -227,3 +227,121 @@ puts ""
 
 puts '-------------------------------'
 =end
+
+
+#! /usr/bin/env ruby
+# -*- coding:utf-8 -*-
+
+=begin
+  puts "This is a comment!"
+=end
+
+
+
+=begin
+
+puts "Hello,World!"
+puts "-------------------------------------------"
+
+3.times { puts "Hello,World!"; }
+puts "-------------------------------------------"
+
+def abs(n)
+  if (n > 0)
+    n
+  elsif (n < 0)
+    -n
+  else
+    0
+  end
+end
+
+for i in -10...11     # [-10,11)
+  puts abs(i)
+end
+puts "-------------------------------------------"
+
+# [0,100] Prime
+#for i in 2...100
+#  flag = false
+#  for j in 2...i
+#    flag = true if (!i%j)
+#  end
+#  puts i if (flag)
+#end
+
+for i in 2...101
+  j = 2
+  flag = true
+
+  while (j < i) do
+    if (i % j == 0)
+      flag = false
+      #puts "---"
+      break
+    end
+    j += 1
+  end
+
+  puts i  if (flag)
+end
+puts "-------------------------------------------"
+
+s = "Hello,World!\n"
+s.each_char { |x| print "#{x}" }
+puts '-------------------------------------------'
+
+def gcd(a, b)
+  b == 0 ? a : gcd(b, a%b)
+end
+
+puts gcd(15, 6)
+puts '-------------------------------------------'
+
+puts( "\n\t#{(1 + 2) * 3}\nGoodbye" )
+p "Hello,World!\n"
+n = [1...10]
+p n[8]
+puts '-------------------------------------------'
+
+#print 'Please input your name: '
+#name = gets()
+#puts name
+##print "Hello, $name"
+#puts "Hello,#{name}"
+#print 'Hello,' + name
+
+#include Math
+print "Sin(PI) = ", Math::sin(Math::PI), "\n"
+puts '-------------------------------------------'
+
+p /Ruby/ =~ "Hello, Ruby!"
+puts '-------------------------------------------'
+
+
+
+filename = "Ex.txt"
+file = open filename
+
+#text = file.read
+#print text  => 一次全部读出
+
+#begin
+#while text = file.gets
+#  print text
+#end
+#=> 逐行读入
+#=end
+
+#pattern = Regexp.new('WinEdt')
+#while text = file.gets
+#  print text if pattern =~ text
+#end
+
+file.close
+puts '-------------------------------------------'
+
+p 1.eql?2
+print !(0 == 0)
+
+=end
