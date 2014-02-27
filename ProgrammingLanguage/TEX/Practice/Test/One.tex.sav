@@ -1,0 +1,8 @@
+\documentclass[a4paper,11pt,CJK]{article}
+\title{Test}
+\author{ĞíÈğÁÁ}
+\begin{document}
+\maketitle
+Test Succeed!
+\end{document}
+

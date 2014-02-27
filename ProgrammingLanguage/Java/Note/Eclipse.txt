@@ -1,0 +1,3 @@
+Format   右键->source->format	shift+alt+f
+^+shift+w	关闭所有标签
+^+鼠标左击

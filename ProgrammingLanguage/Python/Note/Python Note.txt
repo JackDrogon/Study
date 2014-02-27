@@ -1,0 +1,17 @@
+Dictionary:
+	dict():
+		dict([("name", "Gumby"), ("age", 42)])
+		dict("name" = "Gumby", "age" =  42)
+	
+	Iterat:
+		for key in d:
+			print key, d[key]
+
+		for key, value in d.items():
+			print key, value
+
+from *** import *** as ***
+
+
+Skills:
+	range(len(****))

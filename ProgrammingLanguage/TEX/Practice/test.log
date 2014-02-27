@@ -1,0 +1,86 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.8)  30 APR 2013 01:42
+entering extended mode
+**F:/Study*Process/Program*Language/TEX/Practice/test.tex
+("F:/Study Process/Program Language/TEX/Practice/test.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for loaded.
+(D:\Share\Compose\CTEX\CTeX\tex\latex\cct\cctart.cls
+Document Class: cctart 2004/10/14 Derived from the `article' class
+(D:\Share\Compose\CTEX\MiKTeX\tex\latex\base\article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(D:\Share\Compose\CTEX\MiKTeX\tex\latex\base\size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(D:\Share\Compose\CTEX\CTeX\tex\latex\cct\cctbase.sty
+Package: cctbase 2006/05/17
+
+(D:\Share\Compose\CTEX\CTeX\tex\latex\cct\CCT.sty 0.61803 [2009/11/20]
+(D:\Share\Compose\CTEX\CTeX\tex\latex\cct\cchead.sty
+\!ZihaoNo=\count87
+\ccwd=\dimen103
+\ccht=\dimen104
+\ccdp=\dimen105
+\!ccbox=\box26
+\!ccbdskip=\skip43
+)
+Package: CCT 2009/11/20 0.61803
+\@CCTcnta=\count88
+\@CCTcntb=\count89
+\@CCTlastkern=\count90
+\@CCTglue=\skip44
+\@CCTtoks=\toks14
+
+(D:\Share\Compose\CTEX\CTeX\tex\latex\cct\CCT.cfg)
+(D:\Share\Compose\CTEX\CTeX\tex\latex\cct\GBKkern.cfg)
+(D:\Share\Compose\CTEX\CTeX\tex\latex\CJK\GB\c19song.fd) (\ziti{A}->gbksong)
+\@CCTskip=\skip45
+))) ("F:\Study Process\Program Language\TEX\Practice\test.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+ [1
+
+{D:/Share/Compose/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}
+}]
+("F:\Study Process\Program Language\TEX\Practice\test.aux") ) 
+Here is how much of TeX's memory you used:
+ 646 strings out of 495354
+ 7869 string characters out of 3183076
+ 61372 words of memory out of 3000000
+ 3872 multiletter control sequences out of 15000+200000
+ 5508 words of font info for 21 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 29i,4n,22p,240b,111s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/Share/Compose/
+CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Share/Compose/CTEX/CTeX/fonts/t
+ruetype/chinese/simsun.ttf><D:/Share/Compose/CTEX/CTeX/fonts/truetype/chinese/s
+imsun.ttf><D:/Share/Compose/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Sha
+re/Compose/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><D:/Share/Compose/CTEX/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on test.pdf (1 page, 29218 bytes).
+PDF statistics:
+ 30 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,127 @@
+#! /usr/bin/env bash
+
+for i in $*
+do
+    echo $i
+done
+
+for i in $@
+do
+    echo $i
+done
+
+
+
+while cond
+do
+    stat
+done
+
+
+
+until cond
+do 
+    stat
+done
+
+
+
+case var in
+    pattern [ | pattern] ...) stat;;
+    pattern [ | pattern] ...) stat;;
+    ...
+esac
+
+Case Example:
+    case "$time" in
+    yes)    echo "Good Morning"
+    no )    echo "Good Afternoon"
+easc
+
+
+
+#! /usr/bin/env bas
+
+echo $0
+echo $#
+echo $$
+ls /tmp/tmpfile_$$
+
+exit 0
+
+
+
+#! /usr/bin/env bash
+
+for ((i=0;i<10;++i))
+do
+    echo $i
+done
+
+exit 0
+
+
+
+#! /usr/bin/env bash
+
+for foo in bar fud 43
+do 
+	echo $foo
+done 
+
+exit 0
+
+
+
+#! /usr/bin/env bash
+
+for file in `ls *.sh`
+do
+    more ${file}
+done
+
+exit 0
+
+
+
+#! /usr/bin/env bash
+
+foo()
+{
+	echo Jay;
+}
+
+result="$(foo)";
+echo $result;
+
+exit 0;
+
+
+
+#! /usr/bin/env bash
+
+num=15
+echo -n "Please Enter a number: "
+read tmp
+
+while [ "$tmp" != "$num" ]
+do
+	echo "Try again"
+	echo -n "Please Enter a number: "
+	read tmp
+done
+
+exit 0
+
+
+
+#! /usr/bin/env bash
+
+echo -n "Enter a number: "
+read num
+echo "$num is the number you input"
+
+exit 0
+
+
+

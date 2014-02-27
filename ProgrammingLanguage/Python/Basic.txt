@@ -1,0 +1,19 @@
+set : & | –
+	X = set('spam')
+	# Make a set out of a sequence in 2.6 and 3.0
+	
+	Y = {'h', 'a', 'm'}
+	# Make a set with new 3.0 set literals
+	X, Y
+	=> ({'a', 'p', 's', 'm'}, {'a', 'h', 'm'})
+	X & Y # Intersection
+	=> {'a', 'm'} 
+	X | Y # Union
+	=> {'a', 'p', 's', 'h', 'm'} 
+	X – Y # Difference
+	=> {'p', 's'} 
+	{x ** 2 for x in [1, 2, 3, 4]} 
+	=> {16, 1, 4, 9} 
+	x ^ y
+
+bytearray

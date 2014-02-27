@@ -1,0 +1,75 @@
+Mv
+mv a b
+mv a b/
+
+Cp
+cp a b/
+cp -p a b/
+
+Chmod
+chmod +x a
+chmod u+x a
+chmod u,g=rwx, o=r  a
+
+Chgrp
+
+Chown
+
+Touch
+touch a
+
+Mkdir 
+mkdir a
+mkdir -p a/b
+
+Rmdir
+rmdir a
+
+Rm
+rm a.txt
+rm -f a/
+rm -rf a/
+
+Time
+Time sleep 9
+
+Sleep
+Sleep 9
+
+Iconv
+iconv -f gbk -t utf8 a.txt -o a.txt.utf8
+
+dd
+
+diff
+
+patch
+
+Mkfs
+mkfs -t vfat -I /dev/sdb
+
+Jobs
+
+Fg
+
+Bg
+
+Cut
+
+Awk
+
+Sed
+
+M4
+
+Gcc
+
+G++
+
+Gdb
+
+Gprof
+
+Javac
+
+Java

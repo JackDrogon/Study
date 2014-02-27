@@ -1,0 +1,3 @@
+malloc		*malloc(size)
+calloc		*calloc(size, n)
+free		*free(void *ptr)

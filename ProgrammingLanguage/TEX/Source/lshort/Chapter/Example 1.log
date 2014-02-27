@@ -1,0 +1,90 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.4)  31 OCT 2012 11:27
+entering extended mode
+**C:/Users/ZHAN/Desktop/Study/TEX/Source/lshort/Chapter/Example*1.tex
+("C:/Users/ZHAN/Desktop/Study/TEX/Source/lshort/Chapter/Example 1.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for loaded.
+(D:\Compose\CTEX\MiKTeX\tex\latex\base\article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(D:\Compose\CTEX\MiKTeX\tex\latex\base\size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\ZHAN\Desktop\Study\TEX\Source\lshort\Chapter\Example 1.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 8.
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
+
+ []
+
+Missing character: There is no ¡ in font cmr10!
+Missing character: There is no ¯ in font cmr10!
+Missing character: There is no ¡ in font cmr10!
+Missing character: There is no ¯ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--22
+
+ []
+
+[1
+
+{D:/Compose/CTEX/UserData/pdftex/config/pdftex.map}]
+("C:\Users\ZHAN\Desktop\Study\TEX\Source\lshort\Chapter\Example 1.aux") ) 
+Here is how much of TeX's memory you used:
+ 222 strings out of 495354
+ 2699 string characters out of 3183411
+ 47122 words of memory out of 3000000
+ 3471 multiletter control sequences out of 15000+200000
+ 6379 words of font info for 23 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 21i,4n,19p,195b,107s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/Co
+mpose/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Compose/CTEX/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Compose/CTEX/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmmi8.pfb><D:/Compose/CTEX/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr10.pfb><D:/Compose/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.
+pfb><D:/Compose/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "Example 1.pdf" (1 page, 59030 bytes).
+PDF statistics:
+ 30 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

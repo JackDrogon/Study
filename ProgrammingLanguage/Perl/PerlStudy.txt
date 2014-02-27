@@ -1,0 +1,69 @@
+use 5.010;
+use utf8;
+use warnings;	=>	perl -w	=>打开警告
+use diagnostics;	=>	perl -Mdiagnostics	=>警告信息和详细诊断说明
+
+
+
+oct()
+hex()	=>	16进制转换
+
+
+
+use 5.010;
+say "Hello,World!"
+
+
+
+#!/usr/bin/env perl
+@lines = `perldoc -u -f atan2`;
+foreach (@lines) {
+	s/\w<([^>]+)>/\U$1/g;
+	print;
+}
+
+
+
+0x1377_0B77
+0x50_65_72_7C
+
+
+
+10.5 % 3.2 == 10 % 3
+2**3
+
+#标量内插
+"jack" x 3;
+"$jack"
+'$jack'	== "\$jack"
+#标量内插
+
+\x7f	=>	ASCII
+\x{2744}	=>	Unicode
+"Hello" . "World"
+"12fred34" * 3 	=>	36
+0377	=>	255
+'0377'	=>	377
+"Z".5*7	=>	"Z".35	=>	"Z35"
+
+
+
+标量变量命名为标识符命名规则，支持utf-8,但要启用utf-8
+
+#字符串比较操作
+eq	=>	==
+ne	=>	!=
+lt	=>	<
+gt	=>	>
+le	=>	<=
+ge	=>	>=
+#字符串比较操作
+
+'0'的布尔值为0
+!! '0'	=>	求得0的布尔值
+字符串的本质为字符数组
+
+chomp()	去除最后的换行符,每次一个，返回值为实际移除的字符数
+undef数字值为0,字符串为空字符串,判断使用defined()
+
+

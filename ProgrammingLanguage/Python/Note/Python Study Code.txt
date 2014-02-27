@@ -1,0 +1,41 @@
+PATH=$PATH:/home/swaroop/mydir
+env PYTHONDOCS=/usr/share/doc/python-docs-2.3.4/html/ python
+
+id()	type()
+
+enumerate()
+for indexm line in enumerate(fh.readlines()):
+	print(index, line, end='')
+
+enumerate("string")
+
+def b(n): print('{:08b}'.format(n)) 	#二进制表达
+
+
+import re
+pattern = re.compile(r'\d\d\d')
+	if re.search(regex, line): print(line)
+
+import re
+def main():
+    fh = open('raven.txt')
+    for line in fh:
+        if re.search('(Len|Neverm)ore', line):
+            print(line, end='')
+
+def main():
+    fh = open('raven.txt')
+    for line in fh:
+        match = re.search('(Len|Neverm)ore', line)
+        if match:
+            print(match.group())
+
+print( re.sub('(Len|Neverm)ore', '###',   line), end = ' ')
+
+match = re.search('(Len|Neverm)ore', line)
+	if match;
+		print(line.replace(match.group, '###'), end = '')
+
+
+for k in (tuple):
+	print(k, ...[k])

@@ -1,0 +1,15 @@
+Main
+	if __name__ == "__main__" :  main()
+
+File
+	f = open("1.txt", "w")
+	f.write()
+	f.read()
+	f.close();
+	f.readline()
+	f.readlines()
+
+
+Class
+	class Point:
+		pass

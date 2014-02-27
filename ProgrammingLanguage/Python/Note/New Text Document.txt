@@ -1,0 +1,4 @@
+<cond> and <expr_true> or <expr_false>
+
+(<cond> and (<expr_true>,) or (<expr_false>,))[0]
+µÈÍ¬ÓÚ <cond> ? <expr_true> : <expr_false>

@@ -1,0 +1,25 @@
+while cond
+do
+    stat
+done
+
+
+
+until cond
+do 
+    stat
+done
+
+
+
+case var in
+    pattern [ | pattern] ...) stat;;
+    pattern [ | pattern] ...) stat;;
+    ...
+esac
+
+Case Example:
+    case "$time" in
+    yes)    echo "Good Morning"
+    no )    echo "Good Afternoon"
+easc

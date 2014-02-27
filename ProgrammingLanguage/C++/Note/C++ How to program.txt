@@ -1,0 +1,24 @@
+存储类别	P264
+
+const char *ptr		++ptr;
+char* const ptr	or		char const *ptr		++ptr is Error
+const char* const ptr
+
+一元作用域分辨符 ::
+重载
+模板 // 模板是代码生成的一种方法
+	template < class T > // or template < typename T >
+	T max(T value1, T value 2)
+
+size_t	=>	unsigned int
+
+指针大小	C++ 一般为二至四个字节，实际上一般为四个字节
+
+三种句柄：	对象名称， 对象的引用， 对象的指针
+
+iomanip
+	setfill, setw		//Eg:	cout << setfill('0') << setw(2) << "hour" << endl;
+	setfill 填充字符，粘性设置	set 显示域宽，非粘性设置
+
+成员初始化器：
+	Time(int a, int b, int c) : sec(a), min(b), hou(c)	{}

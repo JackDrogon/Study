@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1358571488 source:f:\study process\program language\c++\source\c++ how to program\project\gradebook\main.cpp
+	<iostream>
+	"GradeBookClass.hpp"
+
+1351865804 f:\study process\program language\c++\source\c++ how to program\project\gradebook\gradebookclass.hpp
+	<iostream>
+
+1351865483 source:f:\study process\program language\c++\source\c++ how to program\project\gradebook\gradebookclass.cpp
+	<iostream>
+	"GradeBookClass.hpp"
+

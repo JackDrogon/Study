@@ -1,0 +1,20 @@
+Run
+Runwait
+Msgbox
+Send    Eg: Send Sincerely,{Enter}John Smith
+Slepp   Eg: Sleep, 1000;    等待1000毫秒
+Return
+热键：
+    # -> Win
+    ^ -> Control
+    ! -> Alt
+    Eg:     #n:: Run Notepad
+热字串:
+    ::btw::by the way
+窗口
+    IfWinActive: 检查指定的窗口当前是否活动. 
+    WinActivate: 激活窗口 (使它最前面), 请使用.
+    WinWaitActive: 等待指定窗口变为活动窗口 (通常用在激活窗口的键击后面, 例如按下 Control-F 来打开 "查找" 窗口). 
+    WinClose: 关闭指定的窗口. 
+    WinMove: 改变指定窗口的位置和/或大小. 
+    WinMinimize, WinMaximize, WinRestore: 分别最小化, 最大化或还原指定窗口. 

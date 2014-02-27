@@ -1,0 +1,13 @@
+static_cast<type>(operand)
+野指针
+魔法数字
+const 与 指针连用  查C++ Primer
+	指向非常量的非常量指针	char *a
+	指向常量的非常量指针	const char *a // 可以修改指针指向的目标，但不可以通过指针修改值 可以看做 const (char *a) 指向常量的(非常量指针)， 遍历数组，却不可修改数据
+	指向非常量的常量指针	char * const a //始终指向同一内存位置，相当于别名 
+	指向常量的常量指针		const char * const a
+数组的表达方式	如*a 尤其是二维数组的
+double与long double之间的区别，及取值范围
+函数指针
+逐个成员赋值在数据成员中含有指向动态分配内存的时候会引发严重问题
+类的const重载
