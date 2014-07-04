@@ -1,7 +1,7 @@
 import java.lang.*;
 import java.util.*;
 
-public class Hello {
+public class JavaHello {
 	public static void basicStructure()
 	{
 		// char boolean byte short int long float double
