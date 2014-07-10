@@ -3,7 +3,7 @@
 c := DBI with("mysql")            
 c optionPut("host", "localhost")  
 c optionPut("username", "root")   
-c optionPut("password", "concon")   
+c optionPut("password", "pb919xrl")   
 
 c connect
 

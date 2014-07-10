@@ -2,6 +2,7 @@
 
 # 实现字符串翻转
 str := "ABCDEFG"
+str println
 
 arr := List clone
 newarr := List clone
