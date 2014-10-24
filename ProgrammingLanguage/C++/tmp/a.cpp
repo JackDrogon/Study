@@ -10,4 +10,7 @@ struct f {
 
 int main()
 {
+	cout << f(1, 2);
+
+	return 0;
 }
