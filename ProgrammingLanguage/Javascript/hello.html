@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Hello,JavaScript </title>
+</head>
+	<body>
+		<h1>我的第一段 JavaScript</h1>
+		<p> JavaScript 能够对事件作出反应。比如对按钮的点击： </p>
+		<button type="button" onclick="alert('Welcome!')">点击这里</button>
+
+		<p id="demo"> JavaScript 能改变 HTML 元素的内容。 </p>
+		<script>
+			function myFunction()
+			{
+				x = document.getElementById("demo");  // 找到元素
+				x.innerHTML = "Hello JavaScript!";    // 改变内容
+			}
+		</script>
+		<button type="button" onclick="myFunction()">点击这里,改变</button>
+		<br /> <br />
+
+		<script>
+			function changeImage()
+			{
+				element=document.getElementById('myimage')
+				if (element.src.match("bulbon")) {
+					element.src="eg_bulboff.gif";
+				} else {
+					element.src="eg_bulbon.gif";
+				}
+			}
+		</script>
+		<img id="myimage" onclick="changeImage()" src="eg_bulboff.gif">
+		<p>点击灯泡来点亮或熄灭这盏灯</p>
+
+		<p id="demo_attr"> JavaScript 能改变 HTML 元素的样式。 </p>
+		<script>
+		function changeAttr()
+		{
+			x=document.getElementById("demo_attr") // 找到元素
+			x.style.color="#ff0000";          // 改变样式
+		}
+		</script>
+		<button type="button" onclick="changeAttr()">点击这里</button>
+
+		<p>请输入数字。如果输入值不是数字，浏览器会弹出提示框。</p>
+		<input id="demo_num" type="text">
+		<script>
+			function verify()
+			{
+				var x = document.getElementById("demo_num").value;
+				if(x == "" || isNaN(x)) {
+					alert("Not Numeric");
+				}
+			}
+		</script>
+		<button type="button" onclick="verify()">点击这里</button>
+		<br /> <br />
+
+		<script>
+			var pi=3.14;
+			var name="Bill Gates";
+			var answer='Yes I am!';
+			var cars=new Array();
+			cars[0]="Audi"; cars[1]="BMW"; cars[2]="Volvo";
+			// var cars=new Array("Audi","BMW","Volvo");
+			// var cars=["Audi","BMW","Volvo"];
+			var person={firstname:"Bill", lastname:"Gates", id:5566};
+
+			/*
+			var person={
+				firstname : "Bill",
+				lastname  : "Gates",
+				id        :  5566
+			};
+			*/
+			document.writeln(pi);
+			document.writeln(person.firstname);
+			document.writeln(person["lastname"]);
+		</script>
+	</body>
+</html>

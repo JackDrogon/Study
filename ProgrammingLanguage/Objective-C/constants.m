@@ -13,6 +13,8 @@ int main(int argc, const char *argv[])
 
 		NSUInteger i = 1000;
 		NSLog(@"i is %lu.", i);
+
+		NSLog(@"%lu.", NSNotFound);
 	}
 
 	return 0;
