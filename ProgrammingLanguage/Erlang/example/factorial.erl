@@ -1,6 +1,7 @@
 #!/usr/bin/env escript
 %% -*- erlang -*-
 %%! -smp enable -sname factorial -mnesia debug verbose
+
 main([String]) ->
     try
         N = list_to_integer(String),
